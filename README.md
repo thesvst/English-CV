@@ -1,4 +1,5 @@
-# Polskie-CV
+# English CV
 
-CV w wersji HTML pod linkiem:
-http://kamilbartusik.pl/cv-pl.html
+HTML Version: https://thesvst.github.io/English-CV/
+
+For more visit: http://kamilbartusik.pl
