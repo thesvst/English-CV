@@ -81,7 +81,7 @@ p {
 	width: 75%;
 	position: absolute;
 	left: -43%;
-	background-color: rgba(5, 171, 170, .7);
+	background-color: rgba(0, 60, 230, .7);
 	height: 30%;
 	bottom: 0;
 	display: flex;
@@ -97,7 +97,7 @@ h1:after {
 	content: ' ';
 	width: 20px;
 	height: 3px;
-	background-color: #59c2c1;
+	background-color: #003ce6;
 	left: 2px;
 	border-radius: 25%;
 	position: absolute;
@@ -132,7 +132,7 @@ h1:after {
 	height: 30%;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 }
 .icons i {
 	display: block;
@@ -141,9 +141,14 @@ h1:after {
 	display: inline;
 }
 .icons-row {
-	flex-basis: 50%;
 	position: relative;
-	text-align: center;
+	display: inline-block;
+}
+.icons-row .item{
+	display: inline-block;
+}
+.icons-row:first-of-type{
+	margin-right: 100px;
 }
 .icons-row .item p,
 .icons-row .item i {
@@ -175,7 +180,9 @@ h1:after {
 .project {
 	padding: 0 0 5px 0;
 	margin-bottom: 10px;
-	border-bottom: 1px solid #adadad;
+}
+.experience .exp-desc span{
+color: #003ce6;
 }
 .experience {
 	padding-bottom: 20px;
